@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FAF8F8</color>
+    <color name="purpleOne">#D1BEF0</color>
+    <color name="purpleTwo">#AA8ED7</color>
+    <color name="purpleThree">#8568B4</color>
+    <color name="purple">#A068FB</color>
+    <color name="blurBackground">#68979797</color>
+    <drawable name="white">#FFFFFF</drawable>
+    <color name="common_text_color">#FFFFFFFF</color>
+
+</resources>

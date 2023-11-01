@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/white" />
+    <item
+        android:width="300dp"
+        android:height="300dp"
+        android:gravity="center">
+        <bitmap android:src="@drawable/ic_app_icon" />
+    </item>
+    <item
+        android:width="200dp"
+        android:height="80dp"
+        android:bottom="50dp"
+        android:gravity="bottom|center">
+        <bitmap android:src="@drawable/ic_version_code" />
+    </item>
+</layer-list>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">NotesApp</string>
+    <string name="notes">All Notes</string>
+    <string name="note_added_successfully">Note Added Successfully</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">delete</string>
+    <string name="note_update_successfully">Note Update Successfully</string>
+    <string name="note_delete_successfully">Note Delete Successfully</string>
+    <string name="start_saving">start saving your notes now!</string>
+    <string name="welcome_john">Welcome John,</string>
+    <string name="add_note">Add Note</string>
+    <string name="save">Save</string>
+    <string name="enter_note_title">Enter note title</string>
+    <string name="enter_note_description">Enter note description</string>
+
+    <string name="darkMode" tools:ignore="ExtraTranslation">Dark Mode</string>
+    <string name="lightMode" tools:ignore="ExtraTranslation">Light Mode</string>
+    <string name="defaultMode" tools:ignore="ExtraTranslation">System Default</string>
+    <string name="you_have_not_added_any_notes">You have not added any notes.</string>
+
+</resources>

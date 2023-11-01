@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/_30sdp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardElevation="@dimen/_5sdp"
+        android:layout_margin="@dimen/_5sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_15sdp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_60sdp"
+                android:fontFamily="@font/poppins_semi_bold"
+                android:text="Theme"
+                android:includeFontPadding="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_22ssp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDark"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="@string/darkMode" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLight"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="@string/lightMode" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSystem"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:text="@string/defaultMode" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_notes"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="-38dp"
+        android:src="@drawable/ic_logo"
+        android:translationZ="@dimen/_10sdp"
+        app:layout_constraintBottom_toTopOf="@id/cardInput"
+        app:layout_constraintEnd_toEndOf="@id/cardInput"
+        app:layout_constraintStart_toStartOf="@id/cardInput"
+        app:layout_constraintTop_toTopOf="@id/cardInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
